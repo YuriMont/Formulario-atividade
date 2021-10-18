@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Formmulário de Cadastro de Paciente</legend>
+      <table>
+        <tr>
+          <td><label for="prontuario">Prontuário: </label></td>
+          <td>
+            <input type="text" name="prontuario" id="prontuario">
+          <label for="nome">Nome: </label>
+          <input type="text" name="nome" id="nome" placeholder="informe seu nome">
+          </td>
+          
+          <td><label for="cpf">CPF: </label></td>
+          <td><input type="cpf" name="cpf" id="cpf"></td>
+        </tr>
+
+        <tr>
+          <td><label for="endereco">Endereço: </label></td>
+          <td><input type="text" name="endereco" id="endereco"></td>
+          <td><label for="num">Num: </label></td>
+          <td><input type="number" name="num" id="num"></td>
+          <td><label for="complemento">Complemento: </label></td>
+          <td><input type="text" name="complemento" id="complento"></td>
+        </tr>
+
+        <tr>
+          <td><label for="bairro">Bairro: </label></td>
+          <td><input type="text" name="bairro" id="bairro"></td>
+          <td><label for="municipio">Municipio: </label></td>
+          <td><input type="text" name="municipio" id="municipio"></td>
+          <td><label for="estado">Estado: </label></td>
+          <td>
+            <select name="estado" id="estado">
+              <option selected disabled value="">Selecione</option>
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>
+            </select>
+          </td>
+          <td><label for="cep">CEP</label></td>
+          <td><input type="text" name="cep" id="cep"></td>
+        </tr>
+        
+        <tr>
+          <td><label for="nascimento">Data Nascimento:</label></td>
+          <td><input type="date" name="nacimento" id="nascimento"></td>
+          <td><label for="cidade_nascimento">Cidade de Nascimento:</label></td>
+          <td><input type="text" name="cidade_nascimento" id="cidade_nascimento"></td>
+          <td><label for="estado_nascimento">Estado de Nascimento</label></td>
+          <td>
+            <select name="estado" id="estado">
+              <option selected disabled value="">Selecione</option>
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="sexo">Sexo:</label></td>
+          <td><input type="radio" name="sexo" value="M">Masculino
+          <input type="radio" name="sexo" value="F">Feminino</td>
+          <td><label for="estado_civil">Estado Civil</label></td>
+          <td>
+            <input type="radio" name="estado_civil" value="solteiro">Solteiro
+            <input type="radio" name="estado_civil" value="casado">Casado
+            <input type="radio" name="estado_civil" value="viuvo">Viúvo
+            <input type="radio" name="estado_civil" value="divorciado">Divorciado
+            <input type="radio" name="estado_civil" value="outro">Outro
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="pai">Pai: </label></td>
+          <td><input type="text" name="pai" id=pai"></td>
+          <td><label for="mae">Mãe:</label></td>
+          <td><input type="text" name="mae" id="mae"></td>
+        </tr>
+
+        <tr>
+          <td><label for="observacao">Observação</label></td>
+          <td><textarea name="observacao" id="observacao" rows="2"></textarea></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td><button type="submit">Cadastrar Paciente</button></td>
+          <td><button type="reset">Limpar</button></td>
+          
+        </tr>
+
+
+
+      </table>
+    </fieldset>
+  </form>
+</body>
+
+</html>
